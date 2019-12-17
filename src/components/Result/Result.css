@@ -1,0 +1,104 @@
+.result {
+  width: 100%;
+  padding: 0 10px;
+  float: left;
+}
+.result__card {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.result h3 {
+  margin-top: 15px;
+  padding: 0 18px;
+  font-family: LeroyMerlinBold;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #000000;
+}
+.result__container-img {
+  width: 100%;
+  float: left;
+  height: 76px;
+  overflow: hidden;
+  padding: 0 18px;
+  margin-bottom: 20px;
+}
+.result__container-img img {
+  width: 100%;
+}
+.result p {
+  margin: 0;
+  width: 100%;
+  float: left;
+  font-family: LeroyMerlinLight;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+  padding: 0 18px;
+  margin-bottom: 20px;
+}
+.result a {
+  position: relative;
+  top: 100%;
+  left: 0;
+  background-color: #66cc33;
+  width: 100%;
+  float: left;
+  padding: 18px;
+  font-family: LeroyMerlinBold;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .result p {
+    width: 60%;
+  }
+  .result__card {
+    padding: 0 30px;
+    max-width: 1174px;
+    margin: 0 auto;
+  }
+  .result__container-img {
+    width: 40%;
+    padding: 30px;
+    padding-left: 0;
+    padding-top: 0;
+    height: auto;
+  }
+  .result a {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+    width: 375px;
+    background-color: transparent;
+    color: #66cc33;
+    font-size: 20px;
+
+    padding: 0;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  .result h3 {
+    padding: 0;
+  }
+}

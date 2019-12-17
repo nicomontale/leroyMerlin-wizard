@@ -1,0 +1,149 @@
+.Località {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 14;
+}
+.Località__contenuto {
+  z-index: 22;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Località__header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  float: left;
+  text-align: left;
+  background-color: #fff;
+  border-bottom: 3px solid #66cc33;
+}
+.Località__content {
+  padding: 20px;
+}
+.Località__main-title {
+  z-index: 12;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 81px;
+  margin-bottom: 61px;
+
+  font-family: LeroyMerlinBold;
+}
+.Località__h2 {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: left;
+  margin: auto 8px;
+  margin-bottom: 9px;
+}
+.località__filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+}
+.Località__padding {
+  z-index: 8;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 22px;
+  width: 100%;
+  height: 100%;
+  background-image: url(./../../assets/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.prova {
+}
+.Select {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 40px;
+  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+.Località__continua {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: LeroyMerlinBold;
+
+  height: 60px;
+  background-color: #66cc33;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
+.Località__continua span a {
+  text-decoration: none;
+  color: white;
+}
+.Località__continua span a:hover {
+  color: white;
+}
+.Select option {
+  font-family: LeroyMerlinRegular;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #333333;
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .Località__continua {
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    margin: 0;
+    height: 60px;
+  }
+  .Località__continua span {
+    width: 100%;
+  }
+  .Località__content {
+    padding: 0 20px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .Select {
+    float: left;
+    height: 60px;
+    width: 80%;
+  }
+  .Località__main-title {
+    margin-top: 180px;
+  }
+}

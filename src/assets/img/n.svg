@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="8" cy="8" r="8" fill="#6C3" stroke="#F8F8F8" stroke-width="2"/>
+        <text fill="#FFF" font-family="LeroyMerlinSans-Bold, Leroy Merlin Sans" font-size="9" font-weight="bold">
+            <tspan x="2" y="13">2</tspan>
+        </text>
+    </g>
+</svg>

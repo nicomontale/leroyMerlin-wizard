@@ -1,0 +1,139 @@
+.header {
+  padding-top: 10px;
+  margin: 0 30px;
+}
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header nav ul {
+  float: right;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.header nav ul li {
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.header nav ul li a {
+  display: block;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+.header nav ul li a:hover {
+  color: #66cc33;
+}
+.header nav ul li a span {
+  display: block;
+  width: 100%;
+}
+.header__icon {
+  display: block;
+  margin: 0 auto;
+}
+.header__search {
+  border-radius: 20px;
+  border: solid 1px #e4e4e4;
+  background-color: #ffffff;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+.header__search-text {
+  font-family: LeroyMerlinLight;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  float: left;
+  width: 100%;
+  border: none;
+}
+.header__search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: 10px;
+  transform: translateY(-50%);
+}
+.header__località {
+  cursor: pointer;
+}
+.header__località-icon {
+  display: inline;
+  float: left;
+}
+.header__località-title {
+  font-family: LeroyMerlinSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  display: block;
+}
+.header__località-subtitle {
+  font-family: LeroyMerlinSans;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+  display: block;
+}
+.header__località-text {
+  display: inline;
+  float: left;
+  padding-top: 5px;
+}
+.App-logo-small {
+  display: block;
+  float: left;
+  position: relative;
+  margin: 5px;
+}
+.header {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .App-logo-small {
+    display: none;
+  }
+  .header {
+    display: block;
+  }
+  .header nav ul li {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .App-logo-small {
+    display: none;
+  }
+  .header {
+    display: block;
+  }
+  .header nav ul li {
+    margin-left: 50px;
+  }
+}
+
+.shop {
+  color: #000;
+}
+.shop:hover {
+}

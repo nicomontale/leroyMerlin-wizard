@@ -1,0 +1,9 @@
+Da aggiungere alla presentazione:
+- animazioni nelle illustrazioni
+- Ognuno di noi parla di qualcosa in base a come è stato diviso il lavoro
+- Oltre al link per l' app, dobbiamo aggiungere un QR Code che sia scannerizzabile nel frattempo che mostriamo le slide.
+  Durante questa slide, parlare di cose semplici da seguire così chi apre l'app non perde il discorso
+- Aggiungere il link github alle slide
+- Parlare dei must senza accennare troppo al codice ma facendo vedere diagrammi di flusso o qualcosa del genere. Senza concentrarsi troppo sul codice
+- Parlare del problema e di come l'abbiamo risolto. Quindi a Leroy Merlin serve una web app per vendere i propri prodotti attraverso delle scelte
+  che sono 
